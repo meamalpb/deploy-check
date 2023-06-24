@@ -10,6 +10,8 @@ class PostsController < ApplicationController
   def show
   end
 
+  def home
+  end
   # GET /posts/new
   def new
     @post = Post.new
